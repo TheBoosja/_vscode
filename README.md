@@ -7,3 +7,5 @@ My settings, snippets and extensions for vscode
 - GitLens - Git supercharged *(Eric Amodio)* **v9.5.0**
 - vscode-icons *(Roberto Huertas)* **v8.1.0**
 - vscode-styled-components *(Julien Poissonnier)* **v0.0.25**
+
+Directory for configuration files: *<USER>\AppData\Roaming\Code\User*
