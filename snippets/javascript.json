@@ -1,0 +1,108 @@
+{
+	"Log to the console": {
+		"prefix": "log",
+		"body": "console.log('$1')$0"
+	},
+	"Log state and props to the console": {
+		"prefix": "logsp",
+		"body": "console.log('STROPS', this.state, this.props)$0"
+	},
+	"React component template": {
+		"prefix": "react",
+		"body": [
+			"import React, { Component } from 'react';",
+			"",
+			"class $1 extends Component {",
+				"\tconstructor(props) {",
+					"\t\tsuper(props);",
+					"",
+					"\t\t$2",
+				"\t}",
+				"\t",
+				"\trender() {",
+					"\t\treturn (",
+						"\t\t\t$0",
+					"\t\t);",
+				"\t}",
+			"}",
+			"",
+			"export default $1;",
+			""
+		]
+	},
+	"React functional component template": {
+		"prefix": "refunc",
+		"body": [
+			"import React from 'react';",
+			"",
+			"import './$1.scss';",
+			"",
+			"export default props => {",
+				"\treturn (",
+					"\t\t$0",
+				"\t);",
+			"};"
+		]
+	},
+	"react constructor": {
+		"prefix": "con",
+		"body": [
+			"constructor(props) {",
+			"\tsuper(props);",
+			"",
+			"\tthis.state = {",
+			"\t\t$0",
+			"\t};",
+			"}"
+		],
+		"description": "React constructor method w/ state"
+	},
+	"Initialize state": {
+		"prefix": "state",
+		"body": [
+			"this.state = {",
+				"\t$0",
+			"};"
+		]
+	},
+	"Bind to this": {
+		"prefix": "bind",
+		"body": "this.$1 = this.$1.bind(this);$0"
+	},
+	"import statement": {
+		"prefix": "imp",
+		"body": "import $2 from '$1';$0"
+	},
+	"import sub statement": {
+		"prefix": "sub",
+		"body": "import { $2 } from '$1';$0"
+	},
+	"import stylesheet": {
+		"prefix": "isty",
+		"body": "import '$1';$0"
+	},
+	"Import Styled Components": {
+		"prefix": "stl",
+		"body": "import styled$1 from 'styled-components';$0"
+	},
+	"Export default": {
+		"prefix": "exd",
+		"body": "export default $0"
+	},
+	"Export from statement": {
+		"prefix": "exp",
+		"body": "export { default } from './$1';$0"
+	},
+	"arrow function": {
+		"prefix": "arr",
+		"body": ["($1) => {", "\t$0", "}"]
+	},
+	"Map state to props function": {
+		"prefix": "map",
+		"body": [
+			"function mapStateToProps({ $1 }) {",
+				"\treturn { $2 };",
+			"}"
+		]
+	}
+}

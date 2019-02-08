@@ -1,0 +1,71 @@
+{
+	"breadcrumbs.enabled": true,
+	"editor.fontSize": 13,
+	"editor.insertSpaces": false,
+	"editor.minimap.enabled": false,
+	"editor.renderWhitespace": "boundary",
+	"editor.snippetSuggestions": "top",
+	"emmet.showSuggestionsAsSnippets": true,
+	"explorer.autoReveal": false,
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.openEditors.visible": 0,
+	"extensions.ignoreRecommendations": true,
+	"extensions.showRecommendationsOnlyOnDemand": true,
+	"files.trimTrailingWhitespace": true,
+	"git.enableSmartCommit": true,
+	"gitlens.blame.avatars": false,
+	"gitlens.blame.format": "${authorAgoOrDate}",
+	"gitlens.hovers.annotations.enabled": false,
+	"gitlens.hovers.avatars": false,
+	"gitlens.menus": {
+		"editor": {
+			"blame": false,
+			"clipboard": false,
+			"compare": true,
+			"details": true,
+			"history": false,
+			"remote": false
+		},
+		"editorGroup": {
+			"blame": true,
+			"compare": true,
+			"history": false,
+			"remote": false
+		},
+		"editorTab": {
+			"compare": false,
+			"history": false,
+			"remote": true
+		},
+		"explorer": {
+			"compare": true,
+			"history": true,
+			"remote": false
+		}
+	},
+	"gitlens.settings.mode": "advanced",
+	"html.format.wrapLineLength": 0,
+	"javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+	"javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"telemetry.enableCrashReporter": false,
+	"telemetry.enableTelemetry": false,
+	"vsicons.presets.hideExplorerArrows": true,
+	"window.title": "${activeFolderMedium}",
+	"workbench.editor.labelFormat": "short",
+	"workbench.iconTheme": "vscode-icons",
+	"workbench.settings.editor": "json",
+	"vsicons.dontShowNewVersionMessage": true
+}
+// {
+// 	// Prettier
+// 	"editor.formatOnSave": true,
+// 	"javascript.format.enable": false,
+// 	"prettier.arrowParens": "avoid",
+// 	"prettier.eslintIntegration": true,
+// 	"prettier.singleQuote": true,
+// 	"prettier.tabWidth": 4,
+// 	"prettier.useTabs": true,
+// 	"prettier.printWidth": 100,
+// }
